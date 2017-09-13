@@ -5,9 +5,9 @@
 
 function max(num1, num2){
     if (num1 > num2) {
-    	console.log(num1);
+    	return num1;
     } else if (num2 > num1) {
-    	console.log(num2);
+    	return num2;
     }}
 
 
@@ -50,8 +50,7 @@ findVowel("e");
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
 // Then, write and example of using the function.
 function sum(a,b){
-c=a+b
-return c
+return a+b
 }
 
 // 5.
@@ -66,8 +65,8 @@ return (a + b + c) / 3;
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
-function getLength("velociraptor"){
-  return(velociraptor.length);
+function getLength(input){
+  return input.length;
 }
 
 
